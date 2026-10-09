@@ -16,7 +16,7 @@ const Courses = () => {
       title: "DCA",
       fullName: "Diploma in Computer Application",
       duration: "1 Year",
-      fee: "₹8,000",
+      fee: "₹14,000",
       eligibility: "10th / 12th Pass",
       description:
         "A practical computer course designed to build strong basic and professional computer skills.",
@@ -34,7 +34,7 @@ const Courses = () => {
       title: "CCC",
       fullName: "Course on Computer Concepts",
       duration: "3 Months",
-      fee: "₹2,500",
+      fee: "₹4,999",
       eligibility: "10th Pass",
       description:
         "Basic computer knowledge, internet, MS Office and digital literacy.",
