@@ -162,9 +162,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed left-0 top-0 z-50 w-full transition-transform duration-300 ${
-        showNavbar ? "translate-y-0" : "-translate-y-full"
-      }`}
+      className={`fixed left-0 top-0 z-50 w-full transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"
+        }`}
     >
       <div className="mx-auto mt-3 w-[94%] max-w-7xl">
         <div className="rounded-2xl border border-white/60 bg-white/95 px-4 py-3 shadow-xl backdrop-blur-md md:px-6">
@@ -183,9 +182,8 @@ const Navbar = () => {
             >
               {/* Logo Box */}
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-600 text-lg font-black text-white shadow-lg shadow-indigo-200 transition duration-300 hover:scale-105">
-               <img src="src/assets/faclty_image/webIcon.jpg" />
+                <img src="src/assets/faclty_image/webIcon.jpg" alt="img" />
               </div>
-
               {/* Logo Text */}
               <div>
                 <h1 className="text-sm font-black uppercase tracking-wide text-slate-900 sm:text-base">
