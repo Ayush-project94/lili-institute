@@ -9,7 +9,7 @@ const Faculty = () => {
   const faculty = [
     {
       name: "AJAY KUSHWAHA",
-      role: "FOUNDER",
+      role: "Computer application & IT",
       img: ajayKushwahaImage,
     },
     {
