@@ -1,27 +1,31 @@
 import React from "react";
-import { Mail, GraduationCap, User } from "lucide-react";
+import { Mail, GraduationCap } from "lucide-react";
+import ajayKushwahaImage from "../assets/faclty_image/IMG-20261009-WA0001.jpg";
+import dharamrajImage from "../assets/faclty_image/IMG-20261009-WA0003.jpg";
+import tuleshwarImage from "../assets/faclty_image/IMG-20261009-WA0004.jpg";
+import ajayThakurImage from "../assets/faclty_image/IMG-20261009-WA0000.jpg";
 
 const Faculty = () => {
   const faculty = [
     {
-      name: "Faculty Member",
-      role: "Computer Science",
-      img: "src/assets/faclty_image/IMG-20261009-WA0000.jpg",
+      name: "AJAY KUSHWAHA",
+      role: "FOUNDER",
+      img: ajayKushwahaImage,
     },
     {
-      name: "Faculty Member",
-      role: "Information Technology",
-      img: "src/assets/faclty_image/IMG-20261009-WA0001.jpg",
-    },
-    {
-      name: "Faculty Member",
+      name: "DHARAMRAJ ",
       role: "Computer Applications",
-      img: "src/assets/faclty_image/IMG-20261009-WA0003.jpg",
+      img: dharamrajImage,
     },
     {
-      name: "Faculty Member",
+      name: "TULESHWAR",
       role: "Academic Support",
-      img: "src/assets/faclty_image/IMG-20261009-WA0004.jpg",
+      img: tuleshwarImage,
+    },
+    {
+      name: "AJAY THAKUR",
+      role: "Computer Science",
+      img: ajayThakurImage,
     },
   ];
 
@@ -59,7 +63,7 @@ const Faculty = () => {
                   <img
                     className="rounded-2xl h-fit w-full"
                     src={member.img}
-                    alt="img"
+                    alt={member.name}
                   />
                 </div>
 
