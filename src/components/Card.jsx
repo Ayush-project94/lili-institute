@@ -26,7 +26,6 @@ const Card = ({
 }) => {
   return (
     <div className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:border-indigo-200 hover:shadow-2xl">
-
       {/* Top */}
       <div className="relative overflow-hidden bg-linear-to-br from-indigo-600 via-indigo-700 to-slate-950 p-6 text-white">
         <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-white/10" />
@@ -39,9 +38,7 @@ const Card = ({
               COURSE
             </span>
 
-            <h3 className="mt-4 text-3xl font-black">
-              {title}
-            </h3>
+            <h1 className="mt-4 text-3xl font-black">{title}</h1>
 
             <p className="mt-1 text-sm font-medium text-indigo-100">
               {fullName}
@@ -56,23 +53,14 @@ const Card = ({
 
       {/* Content */}
       <div className="p-6">
-
-        <p className="text-sm leading-7 text-slate-600">
-          {description}
-        </p>
+        <p className="text-sm leading-7 text-slate-600">{description}</p>
 
         {/* Details */}
         <div className="mt-6 grid grid-cols-2 gap-3">
-
           <div className="rounded-2xl bg-slate-50 p-4">
-            <CalendarDays
-              size={19}
-              className="mb-2 text-indigo-600"
-            />
+            <CalendarDays size={19} className="mb-2 text-indigo-600" />
 
-            <p className="text-xs font-semibold text-slate-400">
-              Duration
-            </p>
+            <p className="text-xs font-semibold text-slate-400">Duration</p>
 
             <p className="mt-1 text-sm font-extrabold text-slate-900">
               {duration}
@@ -80,29 +68,17 @@ const Card = ({
           </div>
 
           <div className="rounded-2xl bg-slate-50 p-4">
-            <IndianRupee
-              size={19}
-              className="mb-2 text-indigo-600"
-            />
+            <IndianRupee size={19} className="mb-2 text-indigo-600" />
 
-            <p className="text-xs font-semibold text-slate-400">
-              Fee
-            </p>
+            <p className="text-xs font-semibold text-slate-400">Fee</p>
 
-            <p className="mt-1 text-sm font-extrabold text-slate-900">
-              {fee}
-            </p>
+            <p className="mt-1 text-sm font-extrabold text-slate-900">{fee}</p>
           </div>
 
           <div className="col-span-2 rounded-2xl bg-slate-50 p-4">
-            <GraduationCap
-              size={19}
-              className="mb-2 text-indigo-600"
-            />
+            <GraduationCap size={19} className="mb-2 text-indigo-600" />
 
-            <p className="text-xs font-semibold text-slate-400">
-              Eligibility
-            </p>
+            <p className="text-xs font-semibold text-slate-400">Eligibility</p>
 
             <p className="mt-1 text-sm font-extrabold text-slate-900">
               {eligibility}
@@ -115,9 +91,7 @@ const Card = ({
           <div className="mb-3 flex items-center gap-2">
             <Award size={17} className="text-yellow-500" />
 
-            <h4 className="font-black text-slate-900">
-              What You'll Learn
-            </h4>
+            <h2 className="font-black text-slate-900">What You'll Learn</h2>
           </div>
 
           <div className="space-y-2">
@@ -126,10 +100,7 @@ const Card = ({
                 key={index}
                 className="flex items-center gap-2 text-sm text-slate-600"
               >
-                <Check
-                  size={15}
-                  className="text-green-500"
-                />
+                <Check size={15} className="text-green-500" />
 
                 {item}
               </div>
@@ -139,10 +110,7 @@ const Card = ({
 
         {/* Button */}
         <div className="mt-6">
-          <CardBtn
-            name="View Course"
-            href="#contact"
-          />
+          <CardBtn name="View Course" href="#contact" />
         </div>
       </div>
     </div>
