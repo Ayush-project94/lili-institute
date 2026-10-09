@@ -183,7 +183,7 @@ const Navbar = () => {
             >
               {/* Logo Box */}
               <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-600 text-lg font-black text-white shadow-lg shadow-indigo-200 transition duration-300 hover:scale-105">
-                LI
+               <img src="src/assets/faclty_image/webIcon.jpg" />
               </div>
 
               {/* Logo Text */}
